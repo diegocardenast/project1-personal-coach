@@ -2,7 +2,7 @@
 
 Personal Coach - Giovanni Sanchez is a site created for my personal life coach. It is expected to provide a better digital presentation and online footprint of my coach as well as a digital contact point for potential new customers. Sometimes we need help to achieve our next goals, but we do not know where to go, well, this site will be one place where you can get to meet a person that can provides you this support.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup]( )
 
 ## User Stories
 - As a **user** I want to **view the about page** so that I can **learn more about the coach**
@@ -113,35 +113,32 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content 
 
+- Instructions on how to implement a hamburger navigation bar was taken from a publication made by [Warren Davies](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/)
+- Good/Best practice on the readme were shared by Lauren-Nicole Popich in her [mentoring](https://github.com/CluelessBiker/mentoring/tree/main) GitHub repositry
+
 - The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home and about were provided directly by the customer (All rights reserved)
+- The images used for the 
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
 - Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
   - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
   - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Thank You!
+
+Diego Enrique Cárdenas Tabares  
+Code Institute Student  
+Diploma in Full Stack Software Development  
