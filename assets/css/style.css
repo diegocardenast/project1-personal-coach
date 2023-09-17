@@ -1,11 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+/* Google Fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Overlock:ital,wght@0,400;0,700;1,400;1,700&family=Sarabun:ital,wght@0,600;0,700;1,600&display=swap');
 
-/* Restarting project */
-/* Header section */
-body {
-  display: flex;
-  flex-direction: column;
+/* Asterisk wildcard selector to override default styles added by the browser*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+/* General styles */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  /* Generic project styles */
+  color: #3a3a3a;
+  font-family: 'Overlock', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Sarabun', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #252525;
+}
+
+.hidden-heading {
+  display: none;
+}
+
+
+/* Header section */
+
 .header {
   display: flex;
   flex-grow: 1;
