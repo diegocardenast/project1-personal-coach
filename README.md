@@ -117,24 +117,27 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- Instructions on how to implement a hamburger navigation bar was taken from a publication made by [Warren Davies](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/)
 - Good/Best practice on the readme were shared by Lauren-Nicole Popich in her [mentoring](https://github.com/CluelessBiker/mentoring/tree/main) GitHub repositry
-
 - The text for the Home page was taken from Wikipedia Article A
-- 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - https://stackoverflow.com/questions/22765834/insert-a-line-break-in-mailto-body
 - Email Credits to Simplilearn - Source: https://www.simplilearn.com/tutorials/html-tutorial/html-mailto
-- Colors Palette Generated with https://coolors.co/ using as base the HEX color (#1875a0)  provided by the customer on this page 
+- Colors Palette Generated with https://coolors.co/ using as base the HEX color (#1875a0)  provided by the customer on this page
+- https://www.leadmonk.io/post/14-email-templates-to-ask-for-a-meeting-politely (Template 21) 
+- https://fonts.google.com/?classification=Display
+- https://www.deepl.com/de/translator#es/en
+- https://www.hexcolortool.com/#ff42ad,0.5
+- https://maggieedwards.com/
 
 ### Media
 
 - The photos used on the home and about were provided directly by the customer (All rights reserved)
 - The images used for the 
-- https://www.leadmonk.io/post/14-email-templates-to-ask-for-a-meeting-politely (Template 21)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - https://www.flaticon.com/de/kostenloses-icon/kopf_10183334?related_id=10183334&origin=pack
 - https://favicon.io/favicon-converter/
-- https://fonts.google.com/?classification=Display
+
+
+
 
 
 
