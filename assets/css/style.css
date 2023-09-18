@@ -1,7 +1,17 @@
 /* Google Fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Overlock:ital,wght@0,400;0,700;1,400;1,700&family=Sarabun:ital,wght@0,600;0,700;1,600&display=swap');
 
+/*
+Colors Palette Generated with https://coolors.co/
+  <palette>
+    <color name="Cerulean" hex="1875a0" r="24" g="117" b="160" />
+    <color name="Rich black" hex="01161e" r="1" g="22" b="30" />
+    <color name="Verdigris" hex="50c5b7" r="80" g="197" b="183" />
+  </palette>
+*/
+
 /* Asterisk wildcard selector to override default styles added by the browser*/
+
 * {
   padding: 0;
   margin: 0;
@@ -14,15 +24,22 @@ body {
   display: flex;
   flex-direction:column;
   /* Generic project styles */
-  color: #3a3a3a;
+  color: #01161e;
   font-family: 'Overlock', sans-serif;
 }
 
 h1, h2, h3 {
   font-family: 'Sarabun', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #252525;
+  letter-spacing: 2px;
+}
+
+h1, h2 {
+  color: #1875a0;
+}
+
+h3 {
+  color: #50c5b7;
 }
 
 .hidden-heading {
@@ -33,14 +50,45 @@ h1, h2, h3 {
 /* Header section */
 
 .header {
+  background-color: #1875a0;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
   align-items: baseline;
+  flex-grow: 1;
 }
 
+.header a,h1,h2,h3 {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 100%;
+}
+
+/* Navbar styles with dropdown toggle */
 .navigation-bar {
-  background-color: blueviolet;
-  display: flex;
-  justify-content: flex-start;
+  font-size: 110%;
+  letter-spacing: 1px;
+  position: absolute;
+  background-color: inherit;
+  width: 100%;
+  right: 0;
+  padding: 0 1rem;
+  box-shadow:  0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
+
+.navigation-bar > a {
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid #ffffff;
 }
