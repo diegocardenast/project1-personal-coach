@@ -6,8 +6,8 @@ Colors Palette Generated with https://coolors.co/
   <palette>
     <color name="Cerulean" hex="1875a0" r="24" g="117" b="160" />
     <color name="Rich black" hex="01161e" r="1" g="22" b="30" />
-    <color name="Verdigris" hex="50c5b7" r="80" g="197" b="183" />
-  </palette>
+    <color name="Rose Bonbon" hex="FF40AB" r="255" g="64" b="171" />
+</palette>
 */
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
@@ -31,7 +31,7 @@ body {
 h1, h2, h3 {
   font-family: 'Sarabun', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h1, h2 {
@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 h3 {
-  color: #50c5b7;
+  color: #FF40AB;
 }
 
 .hidden-heading {
@@ -51,7 +51,7 @@ h3 {
 
 .header {
   background-color: #1875a0;
-  padding: 0 1rem;
+  padding: 3%;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -67,8 +67,9 @@ h3 {
   color: #ffffff;
 }
 
-.header h1 {
-  font-size: 100%;
+/*Size of the Logo for Mobile version*/
+.header .logo {
+  font-size: 130%;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -78,7 +79,7 @@ h3 {
   position: absolute;
   background-color: inherit;
   width: 100%;
-  right: 0;
+  left: 0;
   padding: 0 1rem;
   box-shadow:  0 2px 2px #3a3a3a;
   display: none;
@@ -91,4 +92,55 @@ h3 {
 
 .active {
   border-bottom: 1px solid #ffffff;
+}
+
+/* Navigation toggle */
+#nav-toggle:checked~.navigation-bar{
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-toggle {
+ display: none;
+}
+
+.nav-toggle-label {
+  font-size: 1.5rem;
+}
+
+/* Main Content */
+main {
+  /* Main element to take up any surplus space to push footer down*/
+  flex: 1 0 auto;
+  /* Add margin at the top to prevent content from being covered by the header*/
+  margin-top: 47px;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: #1875a0;
+}
+
+.social-networks {
+  text-align: center;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.social-networks a {
+  font-size: 110%;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-networks i {
+  font-size: 1.2rem;
 }

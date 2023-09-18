@@ -123,11 +123,18 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- https://stackoverflow.com/questions/22765834/insert-a-line-break-in-mailto-body
+- Email Credits to Simplilearn - Source: https://www.simplilearn.com/tutorials/html-tutorial/html-mailto
+- Colors Palette Generated with https://coolors.co/ using as base the HEX color (#1875a0)  provided by the customer on this page 
 
 ### Media
 
 - The photos used on the home and about were provided directly by the customer (All rights reserved)
 - The images used for the 
+- https://www.leadmonk.io/post/14-email-templates-to-ask-for-a-meeting-politely (Template 21)
+- https://www.flaticon.com/de/kostenloses-icon/kopf_10183334?related_id=10183334&origin=pack
+- https://favicon.io/favicon-converter/
+- https://fonts.google.com/?classification=Display
 
 
 
