@@ -231,7 +231,7 @@ main {
 .container2-contact {
   background-image: url("../images/giovanni-with-ancient-background.jpg");
   background-size: cover;
-  background-position: top 100%;
+  background-position: top;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
 }

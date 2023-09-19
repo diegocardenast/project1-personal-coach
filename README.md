@@ -16,13 +16,16 @@ Personal Coach - Giovanni Sanchez is a site created for my personal life coach. 
 
 ## Wireframes
 
-- __Home__
+__Home__  
+
 ![Landing Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_home.png)
 
-- __About__
-![About Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_about.png)
+__About__  
 
-- __Contact__
+![About Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe-about.png)
+
+__Contact__  
+
 ![Contact Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_contact.png)
 
 ## Features
