@@ -14,6 +14,17 @@ Personal Coach - Giovanni Sanchez is a site created for my personal life coach. 
 - As a **user** I want to **fill out a contact form** so that I can **get contacted by the coach**
 - As a **user** I want to **see a confirmation message** so that I can **make sure that my contact form has been received**
 
+## Wireframes
+
+- __Home__
+![Landing Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_home.png)
+
+- __About__
+![About Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_about.png)
+
+- __Contact__
+![Contact Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/wireframe_contact.png)
+
 ## Features
 
 ### Existing Features
@@ -29,129 +40,88 @@ Personal Coach - Giovanni Sanchez is a site created for my personal life coach. 
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to allow the user to watch one conference of the coach. 
+  - This section introduces the user to Giovanni Sanchez with a nice intro message.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/LandingPage-PP1-DiegoCardenas.png)
 
-- __Club Ethos Section__
+- __About page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This page allows users to learn more about Giovanni and his certifications  
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Page](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/About-PP1-DiegoCardenas.png)
 
-- __Meetup Times section__
+- __Contact Form__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This page will allow the user to send a contact form directly to the coach. The user will be asked to submit their full name and email address.  
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact Form](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/Bug-PP1-DiegoCardenas.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to LinkedIN and a mailto feature to send a direct message to Giovanni. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/FooterWithContactInformation-PP1-DiegoCardenas.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- NA
 
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+## Testing
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?)
+- Lighthouse
+  - The result given by the system for the lighthouse assessment is the following:
+![Lighthouse results](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/Lighthouse-PP1-DiegoCardenas.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Inside the contact section, there are white areas on top and bottom of the background image. The idea is to fix it so that it can cover the whole area. This happens specially with mobile devices with a very considerable height (670px and more) 
 
-## Deployment
+![Contact Form BUG](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/Bug-PP1-DiegoCardenas.png)
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://diegocardenast.github.io/project1-personal-coach/
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+## Credits
 
 ### Content 
 
 - Good/Best practice on the readme were shared by Lauren-Nicole Popich in her [mentoring](https://github.com/CluelessBiker/mentoring/tree/main) GitHub repositry
-- The text for the Home page was taken from Wikipedia Article A
-- https://stackoverflow.com/questions/22765834/insert-a-line-break-in-mailto-body
-- Email Credits to Simplilearn - Source: https://www.simplilearn.com/tutorials/html-tutorial/html-mailto
-- Colors Palette Generated with https://coolors.co/ using as base the HEX color (#1875a0)  provided by the customer on this page
-- https://www.leadmonk.io/post/14-email-templates-to-ask-for-a-meeting-politely (Template 21) 
-- https://fonts.google.com/?classification=Display
-- https://www.deepl.com/de/translator#es/en
-- https://www.hexcolortool.com/#ff42ad,0.5
-- https://maggieedwards.com/
+- The text for the Home page and the About was provided by the customer. In Spanish and then translated into English using [DeepL](https://www.deepl.com/de/translator#es/en) 
+- Use of stackoverflow to insert a line break inside the [mailto feature](https://stackoverflow.com/questions/22765834/insert-a-line-break-in-mailto-body)
+- Mailto tutorial provided by [Simplilearn](https://www.simplilearn.com/tutorials/html-tutorial/html-mailto)
+- Colors Palette Generated with [coolors.co](https://coolors.co/) using as base the HEX color (#1875a0)  provided by the customer on this page
+- Use of leadmonk to create the [email template (template 21)](https://www.leadmonk.io/post/14-email-templates-to-ask-for-a-meeting-politely) for the mailto feature
+- Use of Google to import [Google fonts](https://fonts.google.com/?classification=Display) 
+- Creation of a transparency of the color pallette using [hexcolortool.com](https://www.hexcolortool.com/#ff42ad,0.5)
+- Inspiration of content and structure seen inside the [Code Institute Love Running Project](https://diegocardenast.github.io/Love-running-ci/index.html) and the page of [Maggie Edwards](https://maggieedwards.com/)
+- 
 
 ### Media
 
 - The photos used on the home and about were provided directly by the customer (All rights reserved)
-- The images used for the 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- https://www.flaticon.com/de/kostenloses-icon/kopf_10183334?related_id=10183334&origin=pack
-- https://favicon.io/favicon-converter/
+- The use of the icons was provided by [Flaticon](https://www.flaticon.com/de/kostenloses-icon/kopf_10183334?related_id=10183334&origin=pack)
+- The resizing and conversion of icons was provided by [Favicon](https://favicon.io/favicon-converter/)
 
-
-
-
-
-
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Thank You!
 
 Diego Enrique Cárdenas Tabares  
 Code Institute Student  
 Diploma in Full Stack Software Development  
-
-[def]: assets/images/Am-I-Responsive-PP1-DiegoCardenas.png
