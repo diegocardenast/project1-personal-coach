@@ -2,7 +2,7 @@
 
 Personal Coach - Giovanni Sanchez is a site created for my personal life coach. It is expected to provide a better digital presentation and online footprint of my coach as well as a digital contact point for potential new customers. Sometimes we need help to achieve our next goals, but we do not know where to go, well, this site will be one place where you can get to meet a person that can provides you this support.
 
-![Responsive Mockup]( )
+![Responsive Mockup](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/Am-I-Responsive-PP1-DiegoCardenas.png)
 
 ## User Stories
 - As a **user** I want to **view the about page** so that I can **learn more about the coach**
@@ -152,3 +152,5 @@ Thank You!
 Diego Enrique Cárdenas Tabares  
 Code Institute Student  
 Diploma in Full Stack Software Development  
+
+[def]: assets/images/Am-I-Responsive-PP1-DiegoCardenas.png
