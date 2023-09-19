@@ -51,20 +51,40 @@
     
     <!-- Main -->
     <main>
-        <!-- Hero section -->
-        <section id="hero">
-            <div id="cover-text">
-                <h2>Commitment to serve as a purpose in life</h2>
+         <!-- Contact section -->
+         <section class="contact">
+            <!-- Container contact picture -->
+            <div class="container1-contact">
+                <div class="contact-pic">
+                    <img src="assets/images/giovanni-with-ancient-background.jpg" alt="Giovanni with an ancient city+bridge in the background">
+                </div>
             </div>
-        </section>
-
-        <section id="hello">
-            <h2>Hi, I'm Giovanni</h2>
-            <h3>Accredited Professional Coach</p>
-        </section>
-
-
-
+            <!-- Container with contact form -->
+            <div class="container2-contact">
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h3>Let's get in contact</h3>
+                    <br>
+                    <p>Please enter your details and I will personally get in touch with you. Speak to you soon.</p>
+                    <br>
+                    <!-- Input field for first name -->
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                    <br>
+                    <!-- Input field for last name -->
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                    <br>
+                    <!-- Input field for email address -->
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <br>
+                    <!-- Input field for location -->
+                    <label for="location">Location (City/Country)</label>
+                    <input type="location" name="location" id="location" class="text-input" required>
+                    <br>
+                    <!-- Submission button -->
+                    <button type="submit" class="join-button"> Send </button>
+                </form>
     </main>
 
     <!-- Footer -->
