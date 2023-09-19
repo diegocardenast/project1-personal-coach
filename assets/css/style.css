@@ -125,7 +125,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #1875a0;
 }
 
 /* Index Page */
