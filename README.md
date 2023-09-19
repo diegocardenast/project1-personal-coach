@@ -4,6 +4,7 @@ Personal Coach - Giovanni Sanchez is a site created for my personal life coach. 
 
 ![Responsive Mockup](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/Am-I-Responsive-PP1-DiegoCardenas.png)
 
+
 ## User Stories
 - As a **user** I want to **view the about page** so that I can **learn more about the coach**
 - As a **user** I want to **navigate the page** so that I can **see more information about the coach**
@@ -13,18 +14,18 @@ Personal Coach - Giovanni Sanchez is a site created for my personal life coach. 
 - As a **user** I want to **fill out a contact form** so that I can **get contacted by the coach**
 - As a **user** I want to **see a confirmation message** so that I can **make sure that my contact form has been received**
 
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Features
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, About and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Navigation Bar](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/NavigationBar-PP1-DiegoCardenas.png)
+
+![Navigation Bar For Mobile](https://github.com/diegocardenast/project1-personal-coach/blob/main/assets/images/NavigationBarForMobile-PP1-DiegoCardenas.png)
 
 - __The landing page image__
 
